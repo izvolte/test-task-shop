@@ -4,7 +4,7 @@ import { useRoutes } from 'react-router-dom'
 
 import routes from '@/router'
 
-function App() {
+const App = () => {
   const element = useRoutes(routes)
 
   return (

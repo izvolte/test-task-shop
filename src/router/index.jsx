@@ -1,17 +1,24 @@
 import * as React from 'react'
 
+import MainLayout from "@/layouts/MainLayout";
+
 const Catalog = React.lazy(() => import("@/views/Catalog"))
-const Checkout = React.lazy(() => import("@/views/Checkout"))
+const Cart = React.lazy(() => import("@/views/Cart"))
 
 const routes = [
 	{
-		index: true,
-		element: <Catalog/>,
+		element: <MainLayout />,
 		path: '/',
-	},
-	{
-		element: <Checkout/>,
-		path: '/checkout',
+		children: [
+			{
+				index: true,
+				element: <Catalog/>,
+			},
+			{
+				element: <Cart/>,
+				path: '/cart',
+			},
+		]
 	},
 	{
 		element: <h1>Not found</h1>,

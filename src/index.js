@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 
 import '@/assets/fonts/fonts.scss';
+import '@/assets/styles/global.scss';
 import App from './App';
 
 const container = document.getElementById('root')

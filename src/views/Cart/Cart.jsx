@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-const Checkout = () => {
+const Cart = () => {
 	return (<>Checkout</>)
 }
 
-export default Checkout
+export default Cart
