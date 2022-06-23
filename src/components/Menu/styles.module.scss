@@ -1,9 +1,29 @@
 @import '@/assets/styles/variables';
 
 .nav {
-
   font-weight: 400;
+  display: flex;
+
   a {
     margin-left: 32px;
+  }
+
+  svg {
+    display: none;
+    padding: 10px;
+  }
+
+  @media (max-width: 768px){
+
+    a {
+      margin-left: 22px;
+      span {
+        display: none;
+      }
+    }
+
+    svg {
+      display: block;
+    }
   }
 }
