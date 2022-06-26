@@ -8,8 +8,7 @@ const Cart = React.lazy(() => import("@/views/Cart"))
 const routes = [
 	{
 		element: <MainLayout />,
-		index: true,
-		path: '/',
+		path: '/test-task-shop/',
 		children: [
 			{
 				index: true,
@@ -17,10 +16,14 @@ const routes = [
 			},
 			{
 				element: <Cart/>,
-				path: '/cart',
+				path: '/test-task-shop/cart',
 			},
 		]
-	}
+	},
+	{
+		element: <h1>Not found</h1>,
+		path: '*',
+	},
 ]
 
 export default routes
