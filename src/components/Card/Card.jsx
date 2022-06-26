@@ -5,11 +5,11 @@ import {ReactComponent as ShopIcon} from '@/assets/icons/shop.svg';
 
 import styles from "./styles.module.scss"
 
-const Card = ({thumb, description, name, price}) => {
+const Card = ({thumb, description, name, price, addCart}) => {
 	return (
 		<div className={styles.card}>
 			<FavIcon className={styles.favIcon}/>
-			<ShopIcon className={styles.shopIcon}/>
+			<ShopIcon onClick={addCart} className={styles.shopIcon}/>
 			<img alt="Изображение товара" className={styles.thumb} src={thumb}/>
 			<div className={styles.title}>{name}</div>
 			<div className={styles.description}>{description}</div>

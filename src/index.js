@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter as Router } from 'react-router-dom'
+import {Provider} from "react-redux";
 
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import '@/assets/fonts/fonts.scss';
 import '@/assets/styles/global.scss';
+
 import App from './App';
+import store from "@/store";
 
 const container = document.getElementById('root')
 
@@ -15,7 +18,9 @@ if(container){
   root.render(
     <React.StrictMode>
       <Router>
-        <App />
+        <Provider store={store}>
+          <App />
+        </Provider>
       </Router>
     </React.StrictMode>
   );
