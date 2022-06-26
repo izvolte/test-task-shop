@@ -11,6 +11,7 @@
 
 .thumb {
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .title {
@@ -36,6 +37,9 @@
   position: absolute;
   cursor: pointer;
   display: none;
+  @media (max-width: 768px){
+    display: block
+  }
 }
 
 .shopIcon {
