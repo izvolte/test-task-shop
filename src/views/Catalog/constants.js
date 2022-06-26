@@ -1,11 +1,11 @@
 export const sorts = [
 	{
 	value: 'DESC',
-	label: 'Сначала новые'
+	label: 'Сперва новые'
 	},
 	{
 		value: 'ASC',
-		label: 'Сначала старые'
+		label: 'Сперва старые'
 	}
 ]
 

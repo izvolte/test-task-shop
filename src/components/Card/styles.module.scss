@@ -1,0 +1,49 @@
+@import '@/assets/styles/variables';
+
+.card {
+  position: relative;
+  &:hover {
+    .shopIcon, .favIcon {
+      display: block;
+    }
+  }
+}
+
+.thumb {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: $font-l;
+  margin-bottom: 8px;
+  color: $text-darkness;
+}
+
+.description {
+  font-size: $font-s;
+  margin-bottom: 12px;
+  color: $text-light;
+  font-weight: 400;
+}
+
+.price {
+  font-size: $font-l;
+  color: $text-dark;
+}
+
+.shopIcon, .favIcon {
+  font-size: 18px;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+.shopIcon {
+  right: 57px;
+  top: 11px;
+}
+
+.favIcon {
+  top: 13px;
+  right: 12px;
+}
