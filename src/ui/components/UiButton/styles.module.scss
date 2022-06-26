@@ -11,6 +11,10 @@
   width: 200px;
   height: 37px;
   font-size: $font-s;
+  @media (max-width: 768px){
+    width: 163px;
+    font-size: $font-xs;
+  }
 }
 
 .sizeL {

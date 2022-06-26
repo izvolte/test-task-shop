@@ -17,9 +17,11 @@
   font-size: $font-s;
   left: 0;
   top: 17px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .up, .down {
+  box-sizing: content-box;
   height: 8px;
   padding: 2px;
   cursor: pointer;

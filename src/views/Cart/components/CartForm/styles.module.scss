@@ -4,6 +4,11 @@
   background: #F7F6F6;
   padding: 42px 27px 148px;
   border-radius: 20px;
+
+  @media (max-width: 768px){
+    width: 100%;
+  }
+
 }
 
 .formItem {
@@ -26,4 +31,9 @@
   span {
     font-weight: 500;
   }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }

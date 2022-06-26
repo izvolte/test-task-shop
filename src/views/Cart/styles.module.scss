@@ -5,7 +5,35 @@
   margin-bottom: 18px;
 }
 
+
+.listWrapper {
+  @media (max-width: 1300px){
+    width: 100%
+  }
+  @media (max-width: 768px){
+    padding: 0 16px
+  }
+}
+
 .cart {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1300px){
+    flex-wrap: wrap;
+  }
+}
+
+
+.form {
+  @media (max-width: 768px){
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+.manage {
+  @media (max-width: 1300px){
+    margin-bottom: 60px;
+  }
 }

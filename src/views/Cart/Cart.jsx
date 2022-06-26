@@ -14,13 +14,18 @@ const Cart = () => {
 	return (
 		!!cart.length ?	(
 			<div className={styles.cart}>
-			<div>
+			<div className={styles.listWrapper}>
 				<div className={styles.list}>
 					<ListProducts/>
 				</div>
-				<ManageCart/>
+
+				<div className={styles.manage}>
+					<ManageCart/>
+				</div>
 			</div>
-			<CartForm/>
+			<div className={styles.form}>
+				<CartForm/>
+			</div>
 		</div>
 		) : 'Корзина пуста'
 	)

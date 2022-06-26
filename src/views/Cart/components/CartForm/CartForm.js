@@ -49,7 +49,9 @@ const CartForm = () => {
 				<UiInput value={address} onInput={setAddress} placeholder="Адрес доставки"/>
 			</div>
 			<div className={styles.sum}>Итого: <span>{sum.toLocaleString()} руб.</span></div>
-			<UiButton size="l" type="submit">Оформить заказ</UiButton>
+			<div className={styles.button}>
+				<UiButton size="l" type="submit">Оформить заказ</UiButton>
+			</div>
 		</form>
 	)
 }
