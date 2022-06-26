@@ -1,6 +1,7 @@
 {
   "name": "test-task-shop",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "homepage": "https://izvolte.github.io/test-task-shop/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",
@@ -21,7 +22,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "predeploy": "craco build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@redux-devtools/core": "^3.13.1",
-    "eslint": "^8.18.0"
+    "eslint": "^8.18.0",
+    "gh-pages": "^4.0.0"
   }
 }
