@@ -10,11 +10,11 @@ import styles from "./styles.module.scss"
 const Menu = () => {
 	return (
 		<nav className={styles.nav}>
-			<Link to="/">
+			<Link to="/test-task-shop/">
 				<span>Каталог</span>
 				<CatalogIcon/>
 			</Link>
-			<Link to="/cart">
+			<Link to="/test-task-shop/cart">
 				<span>Корзина</span>
 				<CartIcon/>
 			</Link>

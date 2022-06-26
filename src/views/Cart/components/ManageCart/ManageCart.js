@@ -17,7 +17,7 @@ const ManageCart = () => {
 	}
 
 	const goShopping = () => {
-		navigate('/')
+		navigate('/test-task-shop/')
 	}
 
 	return (
