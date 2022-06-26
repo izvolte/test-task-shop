@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/test-task-shop/static/css/main.560bfaa1.css",
+    "main.js": "/test-task-shop/static/js/main.05a3ba83.js",
+    "static/css/603.f30501fd.chunk.css": "/test-task-shop/static/css/603.f30501fd.chunk.css",
+    "static/js/603.62b4cd0d.chunk.js": "/test-task-shop/static/js/603.62b4cd0d.chunk.js",
+    "static/css/130.04ce7ebf.chunk.css": "/test-task-shop/static/css/130.04ce7ebf.chunk.css",
+    "static/js/130.aefd1003.chunk.js": "/test-task-shop/static/js/130.aefd1003.chunk.js",
+    "static/media/Montserrat-SemiBold.ttf": "/test-task-shop/static/media/Montserrat-SemiBold.04af9a9e62bb4c47bd55.ttf",
+    "static/media/Montserrat-Medium.ttf": "/test-task-shop/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
+    "static/media/Montserrat-Bold.ttf": "/test-task-shop/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
+    "static/media/Montserrat-Light.ttf": "/test-task-shop/static/media/Montserrat-Light.f0963fd9968fbd54cc35.ttf",
+    "static/media/lunar.png": "/test-task-shop/static/media/lunar.8eed61505b228abba555.png",
+    "static/media/Poppins-SemiBold.ttf": "/test-task-shop/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/menu.png": "/test-task-shop/static/media/menu.c560e7400eaa961bfe5e.png",
+    "static/media/nastan.png": "/test-task-shop/static/media/nastan.411ebbe58cb07e054638.png",
+    "static/media/askesta.png": "/test-task-shop/static/media/askesta.404eb7a30c90b2a79920.png",
+    "static/media/vilora.png": "/test-task-shop/static/media/vilora.388f8c5c399da3f1aa01.png",
+    "static/media/tatran.png": "/test-task-shop/static/media/tatran.66fb2640d9eb5be3e431.png",
+    "static/media/cart.svg": "/test-task-shop/static/media/cart.e4eac683b95e13179ba0ff951f16b96b.svg",
+    "static/media/fav.svg": "/test-task-shop/static/media/fav.8fcaeb5baf510ecfa394f469a743aa87.svg",
+    "static/media/shop.svg": "/test-task-shop/static/media/shop.289dd0c13ede3694e44447e3142786f7.svg",
+    "index.html": "/test-task-shop/index.html",
+    "static/media/catalog.svg": "/test-task-shop/static/media/catalog.a44ad79968ec162919ef0a6eff85a6c8.svg",
+    "static/media/down.svg": "/test-task-shop/static/media/down.640fadeb0f85fec0c839ede26c36fc3c.svg",
+    "static/media/up.svg": "/test-task-shop/static/media/up.610cb77128d9ed089e599a203a050fde.svg",
+    "main.560bfaa1.css.map": "/test-task-shop/static/css/main.560bfaa1.css.map",
+    "main.05a3ba83.js.map": "/test-task-shop/static/js/main.05a3ba83.js.map",
+    "603.f30501fd.chunk.css.map": "/test-task-shop/static/css/603.f30501fd.chunk.css.map",
+    "603.62b4cd0d.chunk.js.map": "/test-task-shop/static/js/603.62b4cd0d.chunk.js.map",
+    "130.04ce7ebf.chunk.css.map": "/test-task-shop/static/css/130.04ce7ebf.chunk.css.map",
+    "130.aefd1003.chunk.js.map": "/test-task-shop/static/js/130.aefd1003.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560bfaa1.css",
+    "static/js/main.05a3ba83.js"
+  ]
+}
