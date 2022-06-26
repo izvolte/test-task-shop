@@ -33,7 +33,6 @@ const Catalog = () => {
 	const onAddCart = (product) => {
 		dispatch(add(product))
 	}
-
 	return (
 		<>
 			<div className={styles.sort}>

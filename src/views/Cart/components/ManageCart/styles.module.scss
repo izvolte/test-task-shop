@@ -3,16 +3,14 @@
 
 .buttons {
   display: flex;
-  @media (max-width: 768px){
-    width: 100%;
-    justify-content: space-between;
-  }
 }
 
 .button {
   margin-right: 7px;
 
   @media (max-width: 768px){
-    margin-right: 0;
+    &:nth-last-child{
+      margin-right: 0;
+    }
   }
 }
