@@ -1,0 +1,28 @@
+@import '@/assets/styles/variables';
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px black solid;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.sizeM {
+  width: 200px;
+  height: 37px;
+  font-size: $font-s;
+}
+
+.sizeL {
+  width: 290px;
+  height: 41px;
+}
+
+.dark {
+  color: $white;
+  background: black;
+}
+
+.light {
+  background: transparent;
+}

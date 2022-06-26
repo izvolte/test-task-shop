@@ -1,0 +1,12 @@
+@import '@/assets/styles/variables';
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 786px;
+}

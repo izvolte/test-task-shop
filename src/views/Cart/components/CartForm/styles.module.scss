@@ -1,0 +1,29 @@
+@import '@/assets/styles/variables';
+
+.form {
+  background: #F7F6F6;
+  padding: 42px 27px 148px;
+  border-radius: 20px;
+}
+
+.formItem {
+  margin-bottom: 40px;
+}
+
+.formTitle {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: $font-l;
+  font-weight: 600;
+}
+
+.sum {
+  text-align: center;
+  font-size: $font-l;
+  font-weight: 400;
+  margin-bottom: 18px;
+
+  span {
+    font-weight: 500;
+  }
+}

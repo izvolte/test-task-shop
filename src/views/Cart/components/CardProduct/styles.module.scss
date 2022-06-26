@@ -1,0 +1,51 @@
+@import '@/assets/styles/variables';
+
+.card {
+  display: flex;
+  position: relative;
+  border-top: 1px solid $grey;
+  padding-top: 25px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.thumb {
+  height: 173px;
+  width: 173px;
+  margin-right: 23px;
+  object-fit: cover;
+}
+
+.info {
+  width: 276px;
+}
+
+.title {
+  margin-bottom: 14px;
+  font-size: $font-l;
+  font-weight: 500;
+}
+
+.description {
+  margin-bottom: 16px;
+  font-size: $font-s;
+  color: $text-light;
+}
+
+.price {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.delete {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.counter {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-weight: 400;
+  user-select: none;
+}

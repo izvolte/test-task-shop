@@ -9,12 +9,10 @@ import styles from "./styles.module.scss"
 import {INITIAL_SORT_VALUE, sorts} from "./constants";
 
 import Card from "@/components/Card";
-import {add, selectCart} from "@/store/cartSlice";
+import {add} from "@/store/cartSlice";
 
 
 const Catalog = () => {
-
-	const cart = useSelector(selectCart);
 	const dispatch = useDispatch();
 
 	const [sort, setSort] = React.useState(INITIAL_SORT_VALUE)
@@ -32,11 +30,9 @@ const Catalog = () => {
 			: new Date(b.date) - new Date(a.date)
 	})
 
-	const onAddCart = (id) => {
-		dispatch(add(id))
+	const onAddCart = (product) => {
+		dispatch(add(product))
 	}
-
-	console.log(cart);
 
 	return (
 		<>
@@ -45,9 +41,13 @@ const Catalog = () => {
 			</div>
 			<div className={styles.list}>
 				{
-					filteredProducts.map(({id, name, description, thumb, price}) => (
-						<Card addCart={() => onAddCart(id)} key={id} name={name} price={price} description={description} thumb={thumb}/>
-					))
+					filteredProducts.map((product) => {
+						const {id, name, price, description, thumb} = product
+
+						return (
+							<Card addCart={() => onAddCart(product)} key={id} name={name} price={price} description={description} thumb={thumb}/>
+						)
+					})
 				}
 			</div>
 		</>

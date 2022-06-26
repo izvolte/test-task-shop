@@ -1,0 +1,37 @@
+@import '@/assets/styles/variables';
+
+.counter {
+  background-color: #F7F6F6;
+  border-radius: 6px;
+  position: relative;
+  height: 51px;
+  width: 71px;
+}
+
+.number {
+  position: absolute;
+  text-align: center;
+  width: 47px;
+  height: 27px;
+  font-weight: 600;
+  font-size: $font-s;
+  left: 0;
+  top: 17px;
+}
+
+.up, .down {
+  height: 8px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.up {
+  position: absolute;
+  left: 47px;
+  top: 14px;
+}
+.down {
+  position: absolute;
+  left: 47px;
+  top: 29px;
+}
